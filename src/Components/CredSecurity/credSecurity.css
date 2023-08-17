@@ -1,0 +1,35 @@
+
+.cred-security{
+    background-color: var(--bg-darkblue);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg);
+    
+}
+
+
+
+
+@media all and (max-width: 1279px){
+    .cred-security{
+        background-position: center bottom; /*means=> background-position-x: center and background-position-y:botton*/
+        
+    }
+}
+
+@media all and (max-width: 767px){
+    .cred-security{
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg);
+        background-position: right center;
+
+    }
+
+    .cred-security-heading{
+        margin-top: 160px;
+    }
+
+
+
+    .cred-security-description{
+        margin-bottom: 40px;
+
+    }
+}
